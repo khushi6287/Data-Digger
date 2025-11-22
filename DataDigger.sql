@@ -127,3 +127,5 @@ SELECT ProductID, SUM(Quantity) AS TotalQty FROM OrderDetails GROUP BY ProductID
 /*Count how many times a product has been sold*/
 SELECT ProductID, COUNT(*) AS TimesSold FROM OrderDetails WHERE ProductID = 1;
 
+
+
